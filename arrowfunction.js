@@ -2,7 +2,7 @@ $(function(    ) {
     //ランダムに顔画像を出力
 
     const imageNum = document.getElementById("randomImage");
-    const images = ["./img/S__8790042.jpg","./img/S__8790044.jpg","./img/S__8790045.jpg","./img/S__8790046.jpg"]
+    const images = ["./S__8790042.jpg","./S__8790044.jpg","./S__8790045.jpg","./S__8790046.jpg"]
     const imageNo = Math.floor(Math.random() * images.length);
     
     $(".btn").click(function(){
